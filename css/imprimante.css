@@ -1,0 +1,146 @@
+.cartesian-content {
+    text-align: center;
+    padding: 80px 40px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+.cartesian-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.cartesian-content h2 {
+    font-size: 26px;
+    margin-top: 30px;
+    color: #f2f2f2;
+    text-align: left;
+}
+
+.cartesian-content p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #dcdcdc;
+}
+
+.cartesian-content ul {
+    text-align: justify;
+    font-size: 20px;
+    margin: 15px 0;
+    padding-left: 40px;
+    color: #dcdcdc;
+}
+
+.cartesian-content ul li {
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+
+.delta-content {
+    text-align: center;
+    padding: 80px 40px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+.delta-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.delta-content h2 {
+    font-size: 26px;
+    margin-top: 30px;
+    color: #f2f2f2;
+    text-align: left;
+}
+
+.delta-content p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #dcdcdc;
+}
+
+.delta-content ul {
+    text-align: justify;
+    font-size: 20px;
+    margin: 15px 0;
+    padding-left: 40px;
+    color: #dcdcdc;
+}
+
+.delta-content ul li {
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+
+.corexy-content {
+    text-align: center;
+    padding: 80px 40px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+.corexy-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.corexy-content h2 {
+    font-size: 26px;
+    margin-top: 30px;
+    color: #f2f2f2;
+    text-align: left;
+}
+
+.corexy-content p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #dcdcdc;
+}
+
+.corexy-content ul {
+    text-align: justify;
+    font-size: 20px;
+    margin: 15px 0;
+    padding-left: 40px;
+    color: #dcdcdc;
+}
+
+.corexy-content ul li {
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+
+.image-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.content-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

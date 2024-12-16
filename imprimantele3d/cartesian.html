@@ -5,9 +5,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Despre - Imprimarea 3D FFF</title>
+        <title>Cartesian - Imprimarea 3D FFF</title>
         <link rel="stylesheet" href="../css/navbar.css" />
-        <link rel="stylesheet" href="../css/despre.css" />
+        <link rel="stylesheet" href="../css/imprimante.css" />
     </head>
 
     <body>
@@ -26,7 +26,7 @@
                     <li><a href="../despre.html">Despre</a></li>
                     <li><a href="../istoric.html">Istoric</a></li>
                     <li>
-                        <a href="../imprimantele3d.html" class="desktop_item">Imprimantele 3D</a>
+                        <a href="#" class="desktop_item">Imprimantele 3D</a>
                         <input type="checkbox" id="showMega" />
                         <label for="showMega" class="mobile_item">Imprimantele
                             3D</label>
@@ -46,10 +46,10 @@
                                 <div class="row">
                                     <header>Materiale</header>
                                     <ul class="mega_links">
-                                        <li><a href="PLA.html">PLA</a></li>
-                                        <li><a href="PETG.html">PETG</a></li>
-                                        <li><a href="ABS.html">ABS</a></li>
-                                        <li><a href="#">NYLON</a></li>
+                                        <li><a href="../materiale/PLA.html">PLA</a></li>
+                                        <li><a href="../materiale/PETG.html">PETG</a></li>
+                                        <li><a href="../materiale/ABS.html">ABS</a></li>
+                                        <li><a href="#">TPU</a></li>
                                     </ul>
                                 </div>
                                 <div class="row">
@@ -69,5 +69,41 @@
                 </label>
             </div>
         </nav>
+        <section class="cartesian-content">
+            <h1>Imprimante 3D cu sistem cartezian</h1>
+            <p>Imprimantele de tip cartezian sunt cele mai comune și folosesc un sistem bazat pe coordonate carteziene (X, Y, Z) pentru a controla mișcarea extruderului și a patului de imprimare.</p>
+            
+            <div class="image-container">
+                <img src="../images/cartesian-printer.png" alt="Imprimantă 3D Cartesian" class="content-image" />
+            </div>
+            
+            <h2>Principiul de funcționare:</h2>
+            <ul>
+                <li>Fiecare axă (X, Y, Z) este controlată independent de un motor pas cu pas.</li>
+                <li>Deplasarea se face de obicei pe ghidaje liniare, iar mișcarea este transmisă prin curele (pentru X și Y) și șuruburi trapezoidale (pentru Z).</li>
+                <li>Volumul de imprimare este o prismă rectangulară.</li>
+            </ul>
+    
+            <h2>Avantaje:</h2>
+            <ul>
+                <li>Simplitate mecanică: Ușor de construit, întreținut și modificat.</li>
+                <li>Precizie ridicată: Datorită mișcării controlate pe axe individuale.</li>
+                <li>Compatibilitate software: Majoritatea slicerelor (Cura, PrusaSlicer) sunt optimizate pentru imprimante carteziene.</li>
+                <li>Cost scăzut: Este cel mai accesibil design pentru amatori și producători de imprimante DIY.</li>
+            </ul>
+    
+            <h2>Dezavantaje:</h2>
+            <ul>
+                <li>Viteză limitată: Greutatea extruderului în mișcare pe axe poate limita viteza de imprimare fără pierderea calității.</li>
+                <li>Rigiditate: Poate necesita ajustări frecvente pentru a menține alinierile mecanice, mai ales pe modelele ieftine.</li>
+                <li>Spațiu ocupat: În funcție de dimensiunea patului de imprimare, imprimantele carteziene pot ocupa mai mult spațiu.</li>
+            </ul>
+    
+            <h2>Exemple populare:</h2>
+            <ul>
+                <li><strong>Prusa i3 MK4:</strong> Renumită pentru fiabilitate și calitatea imprimării.</li>
+                <li><strong>Ender 3:</strong> Model accesibil, preferat de începători.</li>
+            </ul>
+        </section>
     </body>
 </html>

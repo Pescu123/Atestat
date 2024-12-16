@@ -5,9 +5,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Despre - Imprimarea 3D FFF</title>
+        <title>CoreXY - Imprimarea 3D FFF</title>
+        <link rel="stylesheet" href="../css/imprimante.css" />
         <link rel="stylesheet" href="../css/navbar.css" />
-        <link rel="stylesheet" href="../css/despre.css" />
     </head>
 
     <body>
@@ -26,7 +26,7 @@
                     <li><a href="../despre.html">Despre</a></li>
                     <li><a href="../istoric.html">Istoric</a></li>
                     <li>
-                        <a href="../imprimantele3d.html" class="desktop_item">Imprimantele 3D</a>
+                        <a href="#" class="desktop_item">Imprimantele 3D</a>
                         <input type="checkbox" id="showMega" />
                         <label for="showMega" class="mobile_item">Imprimantele
                             3D</label>
@@ -46,10 +46,10 @@
                                 <div class="row">
                                     <header>Materiale</header>
                                     <ul class="mega_links">
-                                        <li><a href="PLA.html">PLA</a></li>
-                                        <li><a href="PETG.html">PETG</a></li>
-                                        <li><a href="ABS.html">ABS</a></li>
-                                        <li><a href="#">NYLON</a></li>
+                                        <li><a href="../materiale/PLA.html">PLA</a></li>
+                                        <li><a href="../materiale/PETG.html">PETG</a></li>
+                                        <li><a href="../materiale/ABS.html">ABS</a></li>
+                                        <li><a href="#">TPU</a></li>
                                     </ul>
                                 </div>
                                 <div class="row">
@@ -69,5 +69,39 @@
                 </label>
             </div>
         </nav>
+        <section class="corexy-content">
+            <h1>Imprimante 3D CoreXY</h1>
+            <p>Sistemul CoreXY utilizează o cinematică specială în care mișcarea pe axele X și Y este controlată simultan de două curele încrucișate și doua motoare.</p>
+            
+            <div class="image-container">
+                <img src="../images/corexy-printer.png" alt="Imprimantă 3D CoreXY" class="content-image" />
+            </div>
+    
+            <h2>Principiul de funcționare:</h2>
+            <ul>
+                <li>Mișcarea pe axele X și Y este rezultatul unei combinații de rotații ale motoarelor.</li>
+                <li>Volumul de imprimare este o prismă rectangulară, dar designul permite mai multă compactare.</li>
+            </ul>
+    
+            <h2>Avantaje:</h2>
+            <ul>
+                <li>Viteză mare și precizie.</li>
+                <li>Design rigid: Cadrele CoreXY sunt de obicei din profile din aluminiu.</li>
+                <li>Mișcare sincronizată: Distribuția uniformă a sarcinii pe motoare reduce uzura mecanică.</li>
+            </ul>
+    
+            <h2>Dezavantaje:</h2>
+            <ul>
+                <li>Configurație complicată: Sistemul de curele încrucișate necesită calibrare precisă.</li>
+                <li>Cost mai mare.</li>
+                <li>Software mai complex.</li>
+            </ul>
+    
+            <h2>Exemple populare:</h2>
+            <ul>
+                <li><strong>Voron 2.4:</strong> Proiect DIY pentru utilizatori avansați.</li>
+                <li><strong>BLV MGN Cube:</strong> Un design modular și performant.</li>
+            </ul>
+        </section>
     </body>
 </html>

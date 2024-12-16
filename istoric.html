@@ -1,73 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Istoric - Imprimarea 3D FFF</title>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/istoric.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Despre - Imprimarea 3D FFF</title>
-        <link rel="stylesheet" href="css/navbar.css" />
-        <link rel="stylesheet" href="css/despre.css" />
-    </head>
-
-    <body>
-        <nav>
-            <div class="wrapper">
-                <div class="logo">
-                    <a href="index.html">Imprimarea 3D FFF</a>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="index.html">Imprimarea 3D FFF</a>
+        </div>
+        <input type="radio" name="slide" id="menu_btn" /><input
+          type="radio"
+          name="slide"
+          id="cancel_btn"
+        />
+        <ul class="nav_links">
+          <label for="cancel_btn" class="btn cancel_btn">
+            <i class="fas fa-times"></i>
+          </label>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="despre.html">Despre</a></li>
+          <li><a href="istoric.html">Istoric</a></li>
+          <li>
+            <a href="#" class="desktop_item">Imprimantele 3D</a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile_item">Imprimantele 3D</label>
+            <div class="mega_box">
+              <div class="content">
+                <div class="row img_row">
+                  <div class="services_img"></div>
                 </div>
-                <input type="radio" name="slide" id="menu_btn" /><input
-                    type="radio" name="slide" id="cancel_btn" />
-                <ul class="nav_links">
-                    <label for="cancel_btn" class="btn cancel_btn">
-                        <i class="fas fa-times"></i>
-                    </label>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="despre.html">Despre</a></li>
-                    <li><a href="istoric.html">Istoric</a></li>
+                <div class="row">
+                  <header>Imprimantele 3D</header>
+                  <ul class="mega_links first_links">
                     <li>
-                        <a href="imprimantele3d.html" class="desktop_item">Imprimantele 3D</a>
-                        <input type="checkbox" id="showMega" />
-                        <label for="showMega" class="mobile_item">Imprimantele
-                            3D</label>
-                        <div class="mega_box">
-                            <div class="content">
-                                <div class="row img_row">
-                                    <div class="services_img"></div>
-                                </div>
-                                <div class="row">
-                                    <header>Imprimantele 3D</header>
-                                    <ul class="mega_links first_links">
-                                        <li><a href="imprimantele3d/cartesian.html">Cartesian</a></li>
-                                        <li><a href="imprimantele3d/corexy.html">CoreXY</a></li>
-                                        <li><a href="imprimantele3d/delta.html">Delta</a></li>
-                                    </ul>
-                                </div>
-                                <div class="row">
-                                    <header>Materiale</header>
-                                    <ul class="mega_links">
-                                        <li><a href="imprimantele3d/PLA.html">PLA</a></li>
-                                        <li><a href="imprimantele3d/PETG.html">PETG</a></li>
-                                        <li><a href="imprimantele3d/ABS.html">ABS</a></li>
-                                        <li><a href="#">NYLON</a></li>
-                                    </ul>
-                                </div>
-                                <div class="row">
-                                    <header>Exemplu</header>
-                                    <ul class="mega_links">
-                                        <li><a href="imprimantele3d/imprimantamea.html">Imprimanta construita de
-                                                mine</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                      <a href="imprimantele3d/cartesian.html">Cartesian</a>
                     </li>
-                    <li><a href="bibliografie.html">Bibliografie</a></li>
-                </ul>
-                <label for="menu_btn" class="btn menu_btn">
-                    <i class="fas fa-bars"></i>
-                </label>
+                    <li><a href="imprimantele3d/corexy.html">CoreXY</a></li>
+                    <li><a href="imprimantele3d/delta.html">Delta</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Materiale</header>
+                  <ul class="mega_links">
+                    <li><a href="materiale/PLA.html">PLA</a></li>
+                    <li><a href="materiale/PETG.html">PETG</a></li>
+                    <li><a href="materiale/ABS.html">ABS</a></li>
+                    <li><a href="#">TPU</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Exemplu</header>
+                  <ul class="mega_links">
+                    <li>
+                      <a href="imprimantele3d/imprimantamea.html"
+                        >Imprimanta construita de mine</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </nav>
-    </body>
+          </li>
+          <li><a href="bibliografie.html">Bibliografie</a></li>
+        </ul>
+        <label for="menu_btn" class="btn menu_btn">
+          <i class="fas fa-bars"></i>
+        </label>
+      </div>
+    </nav>
+    <section class="istoric-content">
+      <h1>Istoria Tehnologiei FFF</h1>
+
+      <h2>1. Originile și invenția</h2>
+      <p>
+        Tehnologia FFF a fost inventată în anul 1988 de către Scott Crump,
+        cofondatorul companiei Stratasys. Inspirația pentru această metodă a
+        venit dintr-un experiment personal, în care Crump a folosit un pistol de
+        lipit pentru a topi ceară și plastic, creând forme tridimensionale.
+        Principiul fundamental al acestei tehnologii constă în extrudarea unui
+        material termoplastic printr-o duză încălzită, care depune materialul
+        strat cu strat, formând obiectul dorit.
+      </p>
+      <p>
+        În 1989, Stratasys a brevetat tehnologia sub denumirea de Fused
+        Deposition Modeling (FDM). La acea vreme, imprimantele erau utilizate
+        însemnat pentru aplicații industriale, fiind costisitoare și greu
+        accesibile pentru publicul larg.
+      </p>
+
+      <h2>2. Expirarea brevetului și adoptarea termenului FFF</h2>
+      <p>
+        Brevetul pentru tehnologia de printare FDM a expirat în anul 2009. Acest
+        eveniment a deschis porțile pentru alte companii și entități să dezvolte
+        tehnologii similare, reducând semnificativ costurile. Comunitatea
+        RepRap, condusă de Adrian Bowyer, a jucat un rol crucial în
+        democratizarea imprimării 3D. Proiectul RepRap a introdus o imprimantă
+        open-source capabilă să imprime componente pentru a construi alte
+        imprimante similare.
+      </p>
+      <p>
+        Pentru a evita utilizarea termenului “FDM”, care era marcă înregistrată,
+        comunitatea a adoptat denumirea Fused Filament Fabrication (FFF).
+        Această schimbare a permis răspândirea tehnologiei sub un termen
+        generic, promovând inovația la nivel global.
+      </p>
+
+      <h2>3. Democratizarea tehnologiei</h2>
+      <p>
+        Datorită proiectului RepRap și altor inițiative similare, imprimarea 3D
+        FFF a devenit mai accesibilă pentru utilizatorii obișnuiți. Companii
+        precum MakerBot, fondată în 2009, au jucat un rol major în aducerea
+        tehnologiei pe piața de consum. Producătorii au introdus imprimante
+        compacte, mai ieftine și mai ușor de utilizat, ceea ce a permis
+        popularizarea imprimării 3D în:
+      </p>
+      <ul>
+        <li>
+          Educație: Imprimantele FFF au fost integrate în școli și universități
+          pentru a sprijini procesele de învățare.
+        </li>
+        <li>
+          Hobby-uri și proiecte DIY: Accesibilitatea tehnologiei a permis
+          utilizatorilor să creeze obiecte personalizate acasă.
+        </li>
+        <li>
+          Prototipare rapidă: FFF a devenit un instrument esențial pentru
+          designeri și ingineri.
+        </li>
+      </ul>
+
+      <h2>4. Materiale utilizate și inovații recente</h2>
+      <p>
+        Inițial, imprimantele FFF utilizau materiale precum ABS și PLA, dar gama
+        de materiale s-a extins considerabil în timp. Astăzi, utilizatorii pot
+        imprima cu:
+      </p>
+      <ul>
+        <li>PETG: Rezistent la impact și flexibil.</li>
+        <li>TPU: Material elastic, potrivit pentru aplicații flexibile.</li>
+        <li>Nailon: Rezistent și durabil, utilizat în inginerie.</li>
+        <li>
+          Compozite: Filamente cu adaos de fibră de carbon, lemn sau metal.
+        </li>
+      </ul>
+      <p>
+        Inovațiile recente includ imprimante cu funcții avansate, precum
+        nivelare automată a platformei, senzori pentru monitorizarea
+        filamentului și extrudoare capabile să imprime materiale multiple.
+      </p>
+    </section>
+  </body>
 </html>
