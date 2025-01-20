@@ -37,6 +37,7 @@ nav .wrapper {
   color: #f2f2f2;
   text-decoration: none;
 }
+
 .wrapper .logo a {
   font-size: 27px;
   font-weight: 600;
@@ -54,9 +55,11 @@ nav .wrapper {
 .nav_links li {
   list-style-type: none;
 }
+
 .nav_links li a:hover {
   background: #3a3b3c;
 }
+
 .nav_links .mobile_item {
   display: none;
 }
@@ -85,6 +88,7 @@ nav .wrapper {
   display: flex;
   justify-content: space-between;
 }
+
 .content .row {
   width: calc(25% - 30px);
   line-height: 45px;
@@ -111,6 +115,7 @@ nav .wrapper {
   margin-left: -40px;
   border-left: 1px solid rgba(255, 255, 255, 0.09);
 }
+
 .content .row .first_links {
   border-left: 0px;
 }
@@ -118,6 +123,7 @@ nav .wrapper {
 .row .mega_links li {
   padding: 0 20px;
 }
+
 .row .mega_links li a {
   padding: 0 20px;
   color: #d9d9d9;
@@ -132,6 +138,7 @@ nav .wrapper {
   cursor: pointer;
   display: none;
 }
+
 .wrapper .btn.cancel_btn {
   position: absolute;
   top: 0;
@@ -142,6 +149,7 @@ nav .wrapper {
   .wrapper .btn {
     display: block;
   }
+
   .wrapper .nav_links {
     position: fixed;
     height: 100vh;
@@ -158,18 +166,23 @@ nav .wrapper {
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
     transition: all 0.5s ease-in-out;
   }
-  #menu_btn:checked ~ .nav_links {
+
+  #menu_btn:checked~.nav_links {
     left: 0%;
   }
-  #menu_btn:checked ~ .btn.menu_btn {
+
+  #menu_btn:checked~.btn.menu_btn {
     display: none;
   }
+
   .nav_links::-webkit-scrollbar {
     width: 0px;
   }
+
   .nav_links li {
     margin: 15px 10px;
   }
+
   .nav_links li a {
     padding: 0 20px;
     display: block;
@@ -188,7 +201,7 @@ nav .wrapper {
     transition: all 0.3s ease;
   }
 
-  #showMega:checked ~ .mega_box {
+  #showMega:checked~.mega_box {
     max-height: 100%;
   }
 
@@ -197,32 +210,40 @@ nav .wrapper {
     flex-direction: column;
     padding: 20px 20px 0 20px;
   }
+
   .mega_box .content .row {
     width: 100%;
     margin-bottom: 15px;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
   }
+
   .mega_box .content .row:nth-child(1),
   .mega_box .content .row:nth-child(2) {
     border-top: 0px;
   }
+
   .content .row .services_img {
     height: 200px;
   }
+
   .content .img_row {
     border-top: none !important;
   }
+
   .content .row .mega_links {
     border-left: 0px;
     padding-left: 15px;
   }
+
   .row .mega_links li {
     margin: 0;
   }
+
   .content .row header {
     font-size: 18px;
   }
 }
+
 .wrapper input {
   display: none;
 }
